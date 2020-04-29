@@ -1,8 +1,9 @@
 'use strict';
-
+  // Welcome
 var name = prompt('Welcome to my site! What is your name?');
   // console.log('Their name is ' + name);
 
+  // What is my name?
 var myName = prompt('Well hello there ' + name + '. Quiz time! Is my name Hinkle McKrinkle?');
   if(myName.toLowerCase() === 'yes' || myName.toLowerCase() === 'y'){
     alert('Close! It is Steve. I can see how you would get the two confused.');
@@ -13,6 +14,7 @@ var myName = prompt('Well hello there ' + name + '. Quiz time! Is my name Hinkle
   }
     // console.log('Is my name Hinkle McKrinkle? ' + name + ' says ' + myName);
    
+  // Am I an alpaca?
 var humanOrAlpaca = prompt('Okay, next question. Am I an alpaca?')
   if(humanOrAlpaca.toLowerCase() === 'yes' || humanOrAlpaca.toLowerCase() === 'y'){
     alert('Very funny ' + name + '.'); 
@@ -21,8 +23,9 @@ var humanOrAlpaca = prompt('Okay, next question. Am I an alpaca?')
   } else {
     alert('I will take a wild guess and assume that you do not think I\'m a cute furry alpaca.');
   }
-    // console.log('Am I an alpaca? ' + name + ' says ' + humanOrAlpaca);
+  / / console.log('Am I an alpaca? ' + name + ' says ' + humanOrAlpaca);
 
+  // Do you think I enjoy music?
 var likeMusic = prompt('Take a wild guess. Do you think I enjoy music?')
   if(likeMusic.toLowerCase() === 'yes' || likeMusic.toLowerCase() === 'y'){
     alert('You would be correct. In that respect, I am like just about everyone else in the world. So unique.');
@@ -33,6 +36,7 @@ var likeMusic = prompt('Take a wild guess. Do you think I enjoy music?')
   }
     // console.log('Do I enjoy music? ' + name + ' says ' + likeMusic);
 
+  // Do I need a haircut?
 var needHaircut = prompt('Do you think I need a haircut? I was trying to grow a sweet fashion mullet before this pandemic destroyed my stylist\'s career and now my mop is starting to get out of hand.');
   if(needHaircut.toLowerCase() === 'yes' || needHaircut.toLowerCase() === 'y'){
     alert('Hey, take it easy. Maybe you should look at yourself in the mirror ' + name + '.');
@@ -42,6 +46,7 @@ var needHaircut = prompt('Do you think I need a haircut? I was trying to grow a 
   }
     // console.log('Do I need a haircut? ' + name + ' says ' + needHaircut);
   
+  // Good developer?
 var goodDeveloper = prompt('What are your thoughts on my code? Do you think I might make a good developer someday?');
   if(goodDeveloper.toLowerCase() === 'yes' || goodDeveloper.toLowerCase() === 'y'){
     alert('Say, thanks. I appreciate the vote of confidence ' + name + '. I will be rooting for you too!');

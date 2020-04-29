@@ -1,6 +1,6 @@
 'use strict';
 
-/*var name = prompt('Welcome to my site! What is your name?');
+var name = prompt('Welcome to my site! What is your name?');
   // console.log('Their name is ' + name);
 
 var myName = prompt('Well hello there ' + name + '. Quiz time! Is my name Hinkle McKrinkle?');
@@ -52,7 +52,7 @@ var goodDeveloper = prompt('What are your thoughts on my code? Do you think I mi
   }
   // console.log('Can I make a good developer? ' + name + ' says ' + goodDeveloper);
 
-    alert('Once again, welcome to my page ' + name + '. You are quite a gem.');*/
+    alert('Once again, welcome to my page ' + name + '. You are quite a gem.');
 
       
 

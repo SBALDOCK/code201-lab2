@@ -1,6 +1,6 @@
 'use strict';
-  // Welcome
-var name = prompt('Welcome to my site! What is your name?');
+
+/*var name = prompt('Welcome to my site! What is your name?');
   // console.log('Their name is ' + name);
 
   // What is my name?
@@ -14,7 +14,7 @@ var myName = prompt('Well hello there ' + name + '. Quiz time! Is my name Hinkle
   }
     // console.log('Is my name Hinkle McKrinkle? ' + name + ' says ' + myName);
    
-  // Am I an alpaca?
+  // Man or alpaca?
 var humanOrAlpaca = prompt('Okay, next question. Am I an alpaca?')
   if(humanOrAlpaca.toLowerCase() === 'yes' || humanOrAlpaca.toLowerCase() === 'y'){
     alert('Very funny ' + name + '.'); 
@@ -23,9 +23,9 @@ var humanOrAlpaca = prompt('Okay, next question. Am I an alpaca?')
   } else {
     alert('I will take a wild guess and assume that you do not think I\'m a cute furry alpaca.');
   }
-  / / console.log('Am I an alpaca? ' + name + ' says ' + humanOrAlpaca);
+  console.log('Am I an alpaca? ' + name + ' says ' + humanOrAlpaca);
 
-  // Do you think I enjoy music?
+  //  Do I like music?
 var likeMusic = prompt('Take a wild guess. Do you think I enjoy music?')
   if(likeMusic.toLowerCase() === 'yes' || likeMusic.toLowerCase() === 'y'){
     alert('You would be correct. In that respect, I am like just about everyone else in the world. So unique.');
@@ -57,7 +57,7 @@ var goodDeveloper = prompt('What are your thoughts on my code? Do you think I mi
   }
   // console.log('Can I make a good developer? ' + name + ' says ' + goodDeveloper);
 
-    alert('Once again, welcome to my page ' + name + '. You are quite a gem.');
+    alert('Once again, welcome to my page ' + name + '. You are quite a gem.');*/
 
       
 

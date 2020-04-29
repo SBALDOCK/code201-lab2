@@ -1,5 +1,6 @@
 body {
   background-color: lightgray;
+  width: 100%;
 }
 h1{
   color: rgb(57, 55, 55);
@@ -24,7 +25,7 @@ h1{
   color: black;
   position: absolute;
   top: 40%; 
-  left: 17%;
+  left: 18%;
   width: 350px;
   transform: translate(-50%, -50%);
   padding: 20px;
@@ -68,7 +69,28 @@ ul{
   font-size: 20px;
 }
 p{
-  width: 350px;
   padding-left: 10px;
-  padding-top: 50px;
+  padding-top: 20px;
+  font-size: 1.5em;
+  width: 65%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
+.square {
+  display: block;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 425px;
+  height: 325px;
+  box-shadow: 5px 5px 5px #777777;
+}
+
+#thanks{
+  display: block;
+  margin-right: auto;
+  margin-left: auto; 
+  margin-bottom: auto;
+}
+

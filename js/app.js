@@ -32,7 +32,7 @@ var humanOrAlpaca = prompt('Okay, next question. Am I an alpaca?')
 var likeMusic = prompt('Take a wild guess. Do you think I enjoy music?')
     if(likeMusic.toLowerCase() === 'yes' || likeMusic.toLowerCase() === 'y'){
     console.log(score ++)
-    alert('You would be correct. In that respect, I am like just about everyone else in the world. So unique.Your score is ' + score + ' .');
+    alert('You would be correct. In that respect, I am like just about everyone else in the world. So unique. Your score is ' + score + ' .');
   } else if(likeMusic.toLowerCase() === 'no' || likeMusic.toLowerCase() === 'n'){
     alert('Of course I do. And in fact, I have never met a person nor alpaca who does not enjoy listening to music. Your score is still ' + score + ' .')
   } else {
@@ -48,7 +48,7 @@ var needHaircut = prompt('Do you think I need a haircut? I was trying to grow a 
     console.log(score ++)
     alert('I can always cut it myself if I get too desperate. You have ' + score + ' points still.');
   } else {
-    alert('Isn\'t hair weird? I mean, it just keeps growing and growing out of you. It never stops! Keep going! You have ' + score + ' points!');
+    alert('Isn\'t hair weird? I mean, it just keeps growing and growing out of you. It never stops! Keep going! Your socre is ' + score + ' .');
   }
   // console.log('Do I need a haircut? ' + name + ' says ' + needHaircut);
   
@@ -73,7 +73,7 @@ var correctAnswer = 8;
 for(var i = 0; i < 4; i++){
     var numberGuess = prompt('What number am I thinking of?');
     if(i === 3){
-    alert('Sorry. You\'re out of guesses! You finished with ' + score + 'points.');
+    alert('Sorry. You\'re out of guesses! Your score is ' + score + ' .');
   } else if(numberGuess == correctAnswer){
     console.log(score ++)
     alert('Wow. How did you guess that? You have ' + score + ' points.');
@@ -98,11 +98,11 @@ for(var i = 0; i < 5; i++){
 var bandGuess = prompt('Which of these is my favorite band? You have six guesses. The options are: ' + favBands);
     if(i === 4){
     prompt('Last guess! Which is it? ' + favBands);
-  } else if(bandGuess === favBand){
+  } else if(bandGuess.toLowerCase() === favBand){
     alert('Great guess. I love The Beatles. You have ' + score + ' points.');
     console.log(score ++)
     break;
-  } else if(bandGuess !== favBand){
+  } else if(bandGuess.toLowerCase() !== favBand){
     alert('A great artist. But not my favorite! You should check out the music anyway because it rules. Keep guessing, you have ' + score + ' points.');
   }
 }

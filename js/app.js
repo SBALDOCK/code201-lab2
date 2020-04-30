@@ -1,4 +1,4 @@
-'use strict';
+/*'use strict';
 
 var name = prompt('Welcome to my site! What is your name?');
   // console.log('Their name is ' + name);
@@ -19,7 +19,7 @@ var myName = prompt('Well hello there ' + name + '. Quiz time! Is my name Hinkle
   // Question - Man or alpaca?
 var humanOrAlpaca = prompt('Okay, next question. Am I an alpaca?')
     if(humanOrAlpaca.toLowerCase() === 'yes' || humanOrAlpaca.toLowerCase() === 'y'){
-    alert('Very funny ' + name + '. You have ' + score + ' points.'); 
+    alert('Very funny ' + name + '. Your score is ' + score + ' .'); 
   } else if(humanOrAlpaca.toLowerCase() === 'no' || humanOrAlpaca.toLowerCase() === 'n'){
     console.log(score ++)
     alert('Correct. I\'m a close cousin of the alpaca, a human. Your score is ' + score + ' .');
@@ -111,7 +111,8 @@ var bandGuess = prompt('Which of these is my favorite band? You have six guesses
   }
     alert('You finished with ' + score + ' points!')
 
-  console.log('This was their score:' + score );
+  console.log('This was their score:' + score );*/
+
 
   
   

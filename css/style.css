@@ -2,6 +2,13 @@ body {
   background-color: lightgray;
   width: 100%;
 }
+
+/* Header container */
+.container{
+  position: relative;
+  text-align: left;
+}
+
 h1{
   color: rgb(57, 55, 55);
   font-size: 3em;
@@ -10,13 +17,8 @@ h1{
   text-align: center;
 }
 
-.container{
-  position: relative;
-  text-align: left;
-}
-
 .crop {
-  max-height: 500px;
+max-height: 500px;
   overflow: hidden;
 }
 
@@ -195,10 +197,7 @@ h2{
   border-radius: 10px;
   display: inline-block;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  margin-top: 20px;
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-bottom: 20px; 
+  margin: 20px;
   padding: 10px;
 }
 

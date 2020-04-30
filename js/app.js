@@ -1,4 +1,4 @@
-'use strict';
+/*'use strict';
 
 var name = prompt('Welcome to my site! What is your name?');
   // console.log('Their name is ' + name);
@@ -111,7 +111,7 @@ var bandGuess = prompt('Which of these is my favorite band? You have six guesses
   }
     alert('You finished with ' + score + ' points!')
 
-  console.log('This was their score:' + score );
+  console.log('This was their score:' + score );*/
 
   
   

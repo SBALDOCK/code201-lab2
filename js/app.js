@@ -3,6 +3,13 @@
 var yourName = prompt('Welcome to my site! What is your name?');
 // console.log('Their name is ' + name);
 
+//var myQuestions = ['yourName', 'myName', 'humanOrAlpaca', 'likeMusic', 'needHaircut', 'goodDeveloper', 'numberGuess', 'bandGuess'];
+
+//var correctAnswers = ['yes', 'no', 'y', 'n'];
+
+//var possibleResponses = ['yes', 'no'];
+
+//question 1 [0], question 2 [1], question 3 [2], question 4 [3], question 5 [4]
 
 var score = 0;
 function questionOne() {

@@ -112,21 +112,22 @@ function questionSix() {
 function questionSeven() {
   alert('Okay, one more game.');
   // Here is a game where someone tries to guess my favorite musical artist
-  var favBand = 'The Beatles'
-  var favBands = ['Radiohead', 'Big Thief', 'Beck', 'Laura Marling', 'The Beatles', 'Steely Dan', 'Joni Mitchell', 'New Order', 'Tom Petty', 'War On Drugs'];
+  var favBand = 'the beatles';
+  var favBands = ['radiohead', 'big thief', 'beck', 'laura marling', 'the beatles', 'steely dan', 'joni mitchell', 'new order', 'tom petty', 'war on drugs'];
 
   for(var i = 0; i < 5; i++){
-    var bandGuess = prompt('Which of these is my favorite band? You have six guesses. The options are: ' + favBands[0] + ',' + favBands[1] + ',' + favBands[2] + ', ' + favBands[3] + ',' + favBands[4] + ',' + favBands[5] + ', or ' + favBands[6] + '.');
+    var bandGuess = prompt('Which of these is my favorite band? You have six guesses. The options are ' + favBands[0] + ',' + favBands[1] + ', ' + favBands[2] + ', ' + favBands[3] + ', ' + favBands[4] + ', ' + favBands[5] + ',or ' + favBands[6] + '.');
     if(i === 4){
-      prompt('Last guess! Which is it? Once again, the options are ' + favBands[0] + ',' + favBands[1] + ',' + favBands[2] + ',' + favBands[3] + ',' + favBands[4] + ',' + favBands[5] + ', or ' + favBands[6] + '.');
-    } else if(bandGuess.toLowerCase() === favBand){
-      prompt('Great guess. I love The Beatles. You have ' + score + ' points. Once again, the options are ' + favBands[0] + ',' + favBands[1] + ',' + favBands[2] + ',' + favBands[3] + ',' + favBands[4] + ',' + favBands[5] + ',or ' + favBands[6] + '.');
-      console.log(score ++);
+      prompt('Last guess! Which is it? Once again, the options are ' + favBands[0] + ',' + favBands[1] + ', ' + favBands[2] + ', ' + favBands[3] + ', ' + favBands[4] + ', ' + favBands[5] + ',or ' + favBands[6] + '.');
+    } else if(bandGuess.toLowerCase()  === favBand){
+      alert('Great guess. I love The Beatles. You have ' + score + ' points.');
+      console.log(score ++)
       break;
     } else if(bandGuess.toLowerCase() !== favBand){
       alert('A great artist. But not my favorite! You should check out the music anyway because it rules. Keep guessing. Once again, your options are ' + favBands[0] + ' ' + favBands[1] + ' ' + favBands[2] + ' ' + favBands[3] + ' ' + favBands[4] + ' ' + favBands[5] + ' ' + favBands[6] + '.');
     }
   }
+
   if(i === 5){
     alert('My favorite band is the Beatles!');
   }

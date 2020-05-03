@@ -102,13 +102,13 @@ function questionSeven() {
     } alert('It is the Beatles');
 }
 
-questionFirstFive();
-questionSix();
-questionSeven();
+// questionFirstFive();
+// questionSix();
+// questionSeven();
       
-alert('You finished with ' + score + ' points!')
+// alert('You finished with ' + score + ' points!')
       
-console.log('This was their score:' + score );
+// console.log('This was their score:' + score );
       
 
 

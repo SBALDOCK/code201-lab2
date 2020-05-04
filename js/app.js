@@ -60,7 +60,7 @@ function questionSix() {
   var correctAnswer = Math.floor(Math.random() * 20 + 1);
   for(var i = 0; i < 4; i++){
     var numberGuess = prompt('What number am I thinking of?');
-    if(i === 3){
+    if((i === 3) && (numberGuess !==correctAnswer)){
       alert('Sorry. You\'re out of guesses!');
     } else if(parseInt(numberGuess) === correctAnswer){
       console.log(score ++);
@@ -102,13 +102,13 @@ function questionSeven() {
     } alert('It is the Beatles');
 }
 
-// questionFirstFive();
-// questionSix();
-// questionSeven();
+questionFirstFive();
+questionSix();
+questionSeven();
       
-// alert('You finished with ' + score + ' points!')
+alert('You finished with ' + score + ' points!')
       
-// console.log('This was their score:' + score );
+console.log('This was their score:' + score );
       
 
 
